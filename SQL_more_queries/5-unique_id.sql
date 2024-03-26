@@ -1,2 +1,5 @@
--- show the description of a table 
-SHOW CREATE TABLE first_table;
+-- creting unique ids 
+CREATE TABLE IF NOT EXISTS unique_id (
+    id INT DEFAULT 1 UNIQUE,
+    name VARCHAR(256)
+);;

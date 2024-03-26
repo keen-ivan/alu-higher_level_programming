@@ -1,5 +1,5 @@
--- create a table in sql 
-CREATE TABLE IF NOT EXISTS first_table(
-    id int,
-    name varchar(255)
-);
+-- id cant be null 
+CREATE TABLE IF NOT EXISTS id_not_null (
+    id INT DEFAULT 1,
+    name VARCHAR(256)
+);;
